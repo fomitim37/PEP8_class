@@ -21,7 +21,7 @@ def div(num_a, num_b):
     return num_a / num_b
 
 if __name__ == "__main__":
-    summ(int(input()), int(input()))
-    diff(int(input()), int(input()))
-    mult(int(input()), int(input()))
-    div(int(input()), int(input()))
+    print(summ(int(input()), int(input())))
+    print(diff(int(input()), int(input())))
+    print(mult(int(input()), int(input())))
+    print(div(int(input()), int(input())))
